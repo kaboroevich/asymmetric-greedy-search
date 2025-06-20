@@ -26,9 +26,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = [
-  "numba",
-]
+numba = ["numba"]
 
 [project.urls]
 Homepage = "https://github.com/kaboroevich/asymmetric-greedy-search"
