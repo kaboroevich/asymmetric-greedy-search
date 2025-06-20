@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install dependencies
-      - run: pip install build twine
+        run: pip install build twine
       - name: Build package
         run: python -m build
       - name: Publish package distributions to PyPI
